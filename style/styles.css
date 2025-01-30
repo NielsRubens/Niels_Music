@@ -1,0 +1,92 @@
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    margin-left: 39.5%;
+    border-style:ridge;
+    position: sticky;
+    
+    
+}
+img:hover{
+    transition: 0.8s;
+    border-width: 18px;
+    
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: rgb(77, 1, 60);
+    text-align: center;
+    font-size: 75px;
+    background-color: rgba(255, 118, 209, 0.514);
+    border-radius: 15px;
+    position: sticky;
+    margin-top: 0%;
+}
+
+body{
+    background-image: url(../IMG/FOND_SITE.jpg);
+    background-size:contain; 
+    background-repeat: round;
+    background-attachment: fixed;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+}
+
+.audio-button{
+    cursor: pointer;
+    justify-content: center;
+    margin-left: 48.5%;
+    font-size: x-large;
+    color: rgb(172, 0, 94);     
+    position:static;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: rgb(5, 12, 19);
+    
+    
+}
+.audio-button:hover{
+    transition: 1.2s;
+    color: rgb(255, 255, 255) ;
+    -webkit-text-stroke-color: rgb(10, 31, 49);
+    
+}
+audio{
+    display: none;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 0, 255);
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(139, 0, 86);
+    
+    
+
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 100, 158);
+    text-align: center;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: darkcyan;
+}
+
+footer{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: coral ;
+  position: sticky;
+  background-color: rgb(66, 66, 66);
+  background-size: auto;
+}
+
+.icon{
+    height: max-content;
+}
